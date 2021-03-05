@@ -98,8 +98,8 @@ function App() {
       <div class="pb-3">
         <form onSubmit={save}>
           <label class="fw-bold">New item</label>
-          <input value={item} onChange={e => setItem(e.target.value)}/>
-          <input value={item2} onChange={e => setItem2(e.target.value)}/>
+          <input placeholder="Type description"value={item} onChange={e => setItem(e.target.value)}/>
+          <input placeholder="Type amount" value={item2} onChange={e => setItem2(e.target.value)}/>
           <button class="btn-primary btn btn-sm mb-1">Add</button>
         </form>
       </div>
